@@ -1,0 +1,85 @@
+/*Imports*/
+@import url(reset.css);
+
+
+
+/*Codigos padroes*/
+
+*{
+    font-family: "Open Sans";
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*Iniciando codigo*/
+
+header{
+    width: 100%;
+    height: 80vh;
+    padding: 40px 0;
+    max-height: 700px;
+    background-image: url(/img/capa.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header .logo{
+    float: left;
+    width: 160px;
+    height: 40px;
+    font-size: 36px;
+    padding: 0 0 0 90px;
+    color:#fff;
+    opacity: 0.9;
+    
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0 90px 0 0;
+}
+
+
+header nav {
+    float: right;
+}
+
+header nav li{
+    padding: 0 20px;
+    float: left;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.chamada-1{
+    float: right;
+    max-width: 600px;
+    margin: 140px 150px ;
+}
+
+.chamada-1 h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: #fff;    
+}
+
+.chamada-1 p{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
