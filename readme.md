@@ -22,5 +22,5 @@
 
 <p>Link aqui</p>
 
-<h1 style="background-color='red'">ATENÇão</h1>
+<h1 style="background-color='red'">ATENÇÃO</h1>
 <p>Projeto em desenvolvimento</p>
