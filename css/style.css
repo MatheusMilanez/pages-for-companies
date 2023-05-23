@@ -38,20 +38,18 @@ header{
 
 header .logo{
     position: relative;
-    top: -10px;
+    top: -5px;
     left: 40px;
-    width: 70px;
+    width: 300px;
     height: 40px;
     float: left;
-    background-image: url(/img/logo-danki.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
     padding: 0 0 0 90px;
     color:#f7f7f7;
-    
-    
+        
 }
 
 
@@ -109,6 +107,7 @@ header nav li{
 header nav ul a{
     text-decoration: none;
     color: #fff;
+    opacity: 0.5;
 }
 
 .chamada-1{
@@ -179,6 +178,7 @@ section.section1 .container{
     line-height: 44px;
     border-radius: 20px;
     font-size: 16px;
+    
 }
 
 .device-section1{
@@ -220,7 +220,7 @@ section .container-section2{
 }
 
 .section2 img{
-    width: 100%;
+    width: 70%;
     position: relative;
     top: 100px;
 }
@@ -581,6 +581,17 @@ footer p:nth-of-type(2){
 }
 
 @media screen and (max-width: 580px) {
+
+    header .logo {
+        top: 0;
+        width: 0;
+        padding: 0 0 0 0;
+        font-size: 20px;
+    }
+
+    .qr-code{
+        margin: 0 0 30px 0;
+    }
     .parte1{
         width: 100%;
     }
